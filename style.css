@@ -1,0 +1,221 @@
+body {  margin: 0px;
+background-color: white}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    
+}
+a{ 
+    text-decoration: none;
+    color: white; 
+}
+
+.button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkblue;
+    
+}
+.imageslide{
+    
+    display: flex;
+    /* align-items: center; */
+    
+    justify-content: space-between;
+    
+    
+}
+
+.imagecard{
+    width:250px;
+    height:200px;
+    border-radius: 8px;
+    
+}
+.card{
+      
+    /* margin: 10px; */
+    background-color: ghostwhite;
+    box-shadow: 5000px;
+    box-radius: 10px;
+    
+    }
+.arrivalcard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+.photo{
+    
+    display: flex;
+    margin: 100px;
+    justify-content: space-around;
+    
+    
+}
+.menphoto { width: 382px;}
+.womenphoto { width: 382px;}
+.apparelphoto{ width: 382px;}
+
+.arrival{
+    font-size: 17px;
+   
+}
+.arrivaltext{
+    margin-left:62px; 
+}
+
+.mumbai{
+    width: 286px
+}
+.delhi{
+    width: 286px
+}
+.hyd{
+    width: 286px
+}
+.banglore{
+    width: 286px
+}
+.message{
+    display: flex;
+    justify-content: space-around;
+}
+.link-box{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+}
+.firstlink {
+    display: flex;
+    flex-direction: column;
+    
+}
+.secondlink {
+    display: flex;
+    flex-direction: column;
+    
+}
+.thirdlink {
+    display: flex;
+    flex-direction: column; 
+}
+.fourthlink {
+    display: flex;
+    flex-direction: column; 
+    align-items:center;
+}
+.firstlink  > span,h3{
+    margin:10px;
+}
+ .secondlink  > span,h3{
+    margin:10px;
+}
+ .thirdlink > span,h3{
+    margin:10px;
+}
+ .fourthlink > subscribe,input,span{
+    margin:10px;
+}
+.subscribe{
+    background-color: black;
+    color:white;
+    border-color: white;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    
+}
+.imagecardp{
+    width:300px;
+    margin: 70px;
+    border-radius: 30px;
+}
+.productdisplay{
+    display: flex;
+    border: 20px;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: px;
+}
+.displaypagecontent{
+    display: flex;
+    flex-direction: column;
+    margin: 90px
+}
+.buttonpage{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    
+}
+.buy{
+  background-color: rosybrown;
+  border-radius: 20px;
+  width: 190px;
+  height: 40px;
+  margin-left: 1px;
+  margin-top: 0px;
+  
+}
+.buy:hover {
+    background-color: blueviolet;
+  }
+.cart{
+  background-color: rosybrown;
+  border-radius: 20px;
+  width: 190px;
+  height: 40px;
+  margin-left: 1px;
+  margin-top: 11px;
+}
+.cart:hover {
+    background-color: blueviolet;
+  }
+.contactlink{
+    
+   margin-left: 32%;
+   margin-top: 15%;    
+}
+.brandimages{
+    margin: 99px
+}
+.nike{
+    width: 440px;
+    height: 190px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.puma{
+    width: 440px;
+    height: 190px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.adidas{
+    width: 440px;
+    height: 190px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.dior{
+    width: 440px;
+    height: 190px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.brandtext{
+    display: flex;
+    justify-content: center;
+    color: palevioletred;
+    font-size: 3rem
+}
+ 
